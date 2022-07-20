@@ -7,8 +7,8 @@ function Directors() {
       <h2>Name: {director.name}</h2>
       <ul>
         Movies:
-        {director.movies.map((movieList) => (
-          <li key={movieList}>{movieList}</li>
+        {director.movies.map((movie) => (
+          <li key={movie}>{movie}</li>
         ))}
       </ul>
     </div>
